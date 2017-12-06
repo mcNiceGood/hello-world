@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>吸顶</title>
+  <style media="screen">
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    #box {
+      width: 100%;
+      height: 50px;
+      background-color: skyblue;
+    }
+  </style>
+  <script type="text/javascript">
+    window.onload = function () {
+      var oBox = document.getElementById('box');
+      var oBox2 = document.getElementById('box2');
+      var top = oBox.offsetTop;
+      window.onscroll = function () {
+        var wScroll = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+        if (wScroll >= top) {
+          oBox.style.position = 'fixed';
+          oBox.style.top = '0';
+          oBox.style.left = '0';
+          oBox2.style.marginTop = '50px';
+        } else {
+          oBox.style.position = '';
+          oBox2.style.marginTop = '0';
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="box">嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤嘤</div>
+  <div id="box2">
+    zhezhehhhh<br>
+    zhezhehhhh<br>
+    zhezhehhhh<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+    啦啦啦<br>
+  </div>
+</body>
+</html>
